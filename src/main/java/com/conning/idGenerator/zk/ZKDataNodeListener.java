@@ -1,4 +1,4 @@
-package com.helijia.idGenerator.zk;
+package com.conning.idGenerator.zk;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.curator.framework.CuratorFramework;
@@ -8,7 +8,7 @@ import org.apache.curator.framework.recipes.cache.PathChildrenCacheListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.helijia.idGenerator.redis.ServerNodeListener;
+import com.conning.idGenerator.redis.ServerNodeListener;
 
 public class ZKDataNodeListener implements PathChildrenCacheListener {
 	private static final Logger LOG = LoggerFactory.getLogger(ZKDataNodeListener.class);

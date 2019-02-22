@@ -1,4 +1,4 @@
-package com.helijia.idGenerator;
+package com.conning.idGenerator;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.curator.framework.CuratorFramework;

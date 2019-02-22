@@ -70,20 +70,6 @@
 		<version>1.7.6</version>
 	</dependency>
 
-	<distributionManagement>
-		<repository>
-			<id>hlj-releases</id>
-			<name>HLJ Project Release</name>
-			<url>http://nexus.int.helijia.com/nexus/content/repositories/releases/</url>
-		</repository>
-
-		<snapshotRepository>
-			<id>hlj-snapshots</id>
-			<name>HLJ Project SNAPSHOTS</name>
-			<url>http://nexus.int.helijia.com/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<build>
 		<plugins>
 			<plugin>

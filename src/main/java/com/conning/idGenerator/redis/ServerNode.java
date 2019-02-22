@@ -1,4 +1,4 @@
-package com.helijia.idGenerator.redis;
+package com.conning.idGenerator.redis;
 
 public class ServerNode {
 	private String host;

@@ -1,4 +1,4 @@
-package com.helijia.idGenerator.zk;
+package com.conning.idGenerator.zk;
 
 import java.util.concurrent.CountDownLatch;
 

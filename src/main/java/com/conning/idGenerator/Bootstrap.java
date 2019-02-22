@@ -1,9 +1,9 @@
-package com.helijia.idGenerator;
+package com.conning.idGenerator;
 
 import org.apache.curator.framework.CuratorFramework;
 
-import com.helijia.idGenerator.redis.ServerNodeManager;
-import com.helijia.idGenerator.zk.ZKDataNode;
+import com.conning.idGenerator.redis.ServerNodeManager;
+import com.conning.idGenerator.zk.ZKDataNode;
 
 public class Bootstrap {
 

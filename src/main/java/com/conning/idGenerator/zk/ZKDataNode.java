@@ -1,4 +1,4 @@
-package com.helijia.idGenerator.zk;
+package com.conning.idGenerator.zk;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -10,7 +10,7 @@ import org.apache.zookeeper.data.Stat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.helijia.idGenerator.redis.ServerNodeListener;
+import com.conning.idGenerator.redis.ServerNodeListener;
 
 public class ZKDataNode {
 	private static final Logger LOG = LoggerFactory.getLogger(ZKDataNode.class);

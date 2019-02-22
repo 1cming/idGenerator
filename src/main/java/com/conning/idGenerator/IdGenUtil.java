@@ -1,4 +1,4 @@
-package com.helijia.idGenerator;
+package com.conning.idGenerator;
 
 import java.util.HashMap;
 import java.util.Map;

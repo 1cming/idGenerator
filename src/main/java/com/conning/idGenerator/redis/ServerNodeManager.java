@@ -1,4 +1,4 @@
-package com.helijia.idGenerator.redis;
+package com.conning.idGenerator.redis;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.helijia.idGenerator.ConfigContext;
+import com.conning.idGenerator.ConfigContext;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -21,7 +21,7 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
 
 public class ServerNodeManager implements ServerNodeListener {
 	private static final Logger LOG = LoggerFactory.getLogger(ServerNodeManager.class);
-	private static final Logger LOGToFile = LoggerFactory.getLogger("helijia.idgenerator.redisValueLog");
+	private static final Logger LOGToFile = LoggerFactory.getLogger("conning.idgenerator.redisValueLog");
 	private String seqName;
 	private volatile ConfigContext context;
 	private static final int RETRY = 3;

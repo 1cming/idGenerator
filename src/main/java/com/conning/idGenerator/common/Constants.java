@@ -1,4 +1,4 @@
-package com.helijia.idGenerator.common;
+package com.conning.idGenerator.common;
 
 public class Constants {
 	public static final String KEY_DB_INDEX = "dbIndex";
